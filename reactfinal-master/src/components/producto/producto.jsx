@@ -1,6 +1,7 @@
 import React from 'react';
 import vicera from '../../multimedia/gorra.png'
 
+
 function Producto() {
   return (
     <div className="producto">
@@ -8,7 +9,7 @@ function Producto() {
       <h3>Producto 1</h3>
       <p>Precio: $20.00</p>
       <p>Descripción: Este es un producto de ejemplo.</p>
-      <button>Agregar al carrito</button>
+      <button className="boton4" onClick={pagar}>Ir a Pagar</button>
     </div>
   );
 }
