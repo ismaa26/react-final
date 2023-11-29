@@ -1,39 +1,39 @@
-.divLoginForm {
+.divLoginForm, .divLoginFormRegister {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-.inputLoginForm {
+.labelForm {
+    margin-bottom: 5px;
+}
+
+.inputLoginForm, .inputpassword, .inputUsername, .inputEmail, .inputPassword, .inputRepeatPassword {
     width: 200px;
-    padding: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.divLoginFormRegister {
-    display: flex;
-    flex-direction: column;
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.inputpassword {
-    width: 200px;
-    padding: 1rem;
+button:hover {
+    background-color: #45a049;
 }
 
-.inputUsername{
-    width: 200px;
-    padding: 1rem;
+h2 {
+    text-align: center;
 }
 
-.inputEmail{
-    width: 200px;
-    padding: 1rem; 
-}
-
-.inputPassword{
-    width: 200px;
-    padding: 1rem; 
-}
-
-.inputRepeatPassword{
-    width: 200px;
-    padding: 1rem; 
+form {
+    text-align: center;
 }
